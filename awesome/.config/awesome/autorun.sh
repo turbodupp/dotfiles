@@ -9,4 +9,4 @@ function run {
 exec nm-applet          
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 eval "$(ssh-agent -s)"
-ssh-add ~/popos 
+ssh-add ~/popos

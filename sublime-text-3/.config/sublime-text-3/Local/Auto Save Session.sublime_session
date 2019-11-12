@@ -510,13 +510,10 @@
 					}
 				},
 				{
-					"contents": "#!/usr/bin/env bash\n\nfunction run {\n  if ! pgrep $1 ;\n    then\n        $@&\n          fi\n          }\nexec nm-applet          \nexec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1\neval \"$(ssh-agent -s)\"\nssh-add ~/popos ",
 					"file": "/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
-					"file_size": 227,
-					"file_write_time": 132180220427963917,
 					"settings":
 					{
-						"buffer_size": 227,
+						"buffer_size": 226,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -722,15 +719,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 227,
+								"buffer_size": 226,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										227,
-										227
+										226,
+										226
 									]
 								],
 								"settings":
