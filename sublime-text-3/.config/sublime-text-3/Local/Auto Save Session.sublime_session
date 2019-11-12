@@ -566,7 +566,7 @@
 					"file": "/home/haugi/linuxlaptop/manjaro.md",
 					"settings":
 					{
-						"buffer_size": 434,
+						"buffer_size": 441,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -699,20 +699,20 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 434,
+								"buffer_size": 441,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										434,
-										434
+										360,
+										360
 									]
 								],
 								"settings":
 								{
-									"markdonw_live_preview_last_run": 1573548709.45,
+									"markdonw_live_preview_last_run": 1573548846.03,
 									"markdown_live_preview_enabled": true,
 									"markdown_live_preview_id": 36,
 									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
@@ -751,7 +751,7 @@
 									"syntax": "Packages/MarkdownLivePreview/.sublime/MarkdownLivePreviewSyntax.hidden-tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 301.0,
+								"translation.y": 80.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
