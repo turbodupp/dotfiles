@@ -431,7 +431,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,1,0,0,1920,19,2878,1042,7680,1080",
+			"position": "0,1,0,0,0,1920,19,2878,1042,7680,1080",
 			"project": "",
 			"replace":
 			{
@@ -510,7 +510,10 @@
 					}
 				},
 				{
+					"contents": "#!/usr/bin/env bash\n\nfunction run {\n  if ! pgrep $1 ;\n    then\n        $@&\n          fi\n          }\nexec nm-applet          \nexec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1\neval \"$(ssh-agent -s)\"\nssh-add ~/popos ",
 					"file": "/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
+					"file_size": 227,
+					"file_write_time": 132180220427963917,
 					"settings":
 					{
 						"buffer_size": 227,
@@ -726,8 +729,8 @@
 								"selection":
 								[
 									[
-										125,
-										125
+										227,
+										227
 									]
 								],
 								"settings":
@@ -841,7 +844,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1920,19,3840,1044,7680,1080",
+			"position": "0,0,0,0,0,2880,19,3838,1042,7680,1080",
 			"project": "",
 			"replace":
 			{
