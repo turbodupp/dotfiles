@@ -3,11 +3,11 @@
 	[
 	],
 	"last_version": 3211,
-	"last_window_id": 8,
+	"last_window_id": 13,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 0.0,
+		"new_window_height": 1025.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -26,6 +26,14 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"preview",
+						"MarkdownLivePreview: Edit Current File"
+					],
+					[
+						"prev",
+						"MarkdownLivePreview: Edit Current File"
+					],
 					[
 						"mark",
 						"MarkdownLivePreview: Edit Current File"
@@ -60,12 +68,20 @@
 			},
 			"file_history":
 			[
-				"/home/haugi/.config/awesome/rc.lua",
+				"/home/haugi/linuxlaptop/manjaro.md",
+				"/home/haugi/linuxlaptop/popos.md",
+				"/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
+				"/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
+				"/home/haugi/.config/dconf/user",
+				"/home/haugi/linuxlaptop/README.md",
 				"/home/haugi/linuxlaptop/awesome/awesome.md",
+				"/home/haugi/.config/awesome/rc.lua",
+				"/home/haugi/.config/awesome/autorun.sh",
+				"/home/haugi/.dotfiles/setup.sh",
+				"/home/haugi/.config/autostart/xfce-pbw.sh",
 				"/home/haugi/popos.pub",
 				"/home/haugi/linuxlaptop/awesome/.zshrc",
 				"/home/haugi/.config/awesome/themes/multicolor/theme.lua",
-				"/home/haugi/.config/awesome/autorun.sh",
 				"/home/haugi/# linuxlaptop.md",
 				"/home/haugi/.config/compton.conf",
 				"/home/haugi/.config/awesome/rc.lua.old",
@@ -90,13 +106,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"autorun",
-					"wibox",
-					"temp",
-					"battery",
-					"weather",
-					"run",
-					"mod4"
+					"layout"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -141,12 +151,12 @@
 			},
 			"select_project":
 			{
-				"height": 0.0,
+				"height": 500.0,
 				"last_filter": "",
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 380.0
 			},
 			"select_symbol":
 			{
@@ -167,7 +177,7 @@
 			{
 			}
 		},
-		"new_window_width": 0.0
+		"new_window_width": 1920.0
 	},
 	"windows":
 	[
@@ -181,48 +191,22 @@
 			"buffers":
 			[
 				{
-					"file": "/home/haugi/linuxlaptop/README.md",
-					"settings":
-					{
-						"buffer_size": 4503,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
 					"file": "/home/haugi/linuxlaptop/manjaro.md",
 					"settings":
 					{
-						"buffer_size": 198,
+						"buffer_size": 438,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/haugi/.config/awesome/autorun.sh",
+					"contents": "",
 					"settings":
 					{
-						"buffer_size": 252,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/haugi/.dotfiles/setup.sh",
-					"settings":
-					{
-						"buffer_size": 921,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/haugi/.config/awesome/rc.lua",
-					"settings":
-					{
-						"buffer_size": 30728,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
+						"buffer_size": 0,
+						"line_ending": "Unix",
+						"name": "manjaro.md - Preview",
+						"scratch": true
 					}
 				}
 			],
@@ -237,6 +221,14 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"preview",
+						"MarkdownLivePreview: Edit Current File"
+					],
+					[
+						"prev",
+						"MarkdownLivePreview: Edit Current File"
+					],
 					[
 						"mark",
 						"MarkdownLivePreview: Edit Current File"
@@ -271,14 +263,20 @@
 			},
 			"file_history":
 			[
-				"/home/haugi/.config/autostart/xfce-pbw.sh",
-				"/home/haugi/.dotfiles/setup.sh",
-				"/home/haugi/.config/awesome/rc.lua",
+				"/home/haugi/linuxlaptop/manjaro.md",
+				"/home/haugi/linuxlaptop/popos.md",
+				"/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
+				"/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
+				"/home/haugi/.config/dconf/user",
+				"/home/haugi/linuxlaptop/README.md",
 				"/home/haugi/linuxlaptop/awesome/awesome.md",
+				"/home/haugi/.config/awesome/rc.lua",
+				"/home/haugi/.config/awesome/autorun.sh",
+				"/home/haugi/.dotfiles/setup.sh",
+				"/home/haugi/.config/autostart/xfce-pbw.sh",
 				"/home/haugi/popos.pub",
 				"/home/haugi/linuxlaptop/awesome/.zshrc",
 				"/home/haugi/.config/awesome/themes/multicolor/theme.lua",
-				"/home/haugi/.config/awesome/autorun.sh",
 				"/home/haugi/# linuxlaptop.md",
 				"/home/haugi/.config/compton.conf",
 				"/home/haugi/.config/awesome/rc.lua.old",
@@ -303,13 +301,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"autorun",
-					"wibox",
-					"temp",
-					"battery",
-					"weather",
-					"run",
-					"mod4"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -327,7 +318,337 @@
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/haugi/linuxlaptop/manjaro.md",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 438,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										438,
+										438
+									]
+								],
+								"settings":
+								{
+									"markdonw_live_preview_last_run": 1573547983.88,
+									"markdown_live_preview_enabled": true,
+									"markdown_live_preview_id": 36,
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/MarkdownLivePreview/.sublime/MarkdownLivePreviewSyntax.hidden-tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 230.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,1,0,0,1920,19,2878,1042,7680,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+				"markdown_live_preview_window": true
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 13,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/haugi/linuxlaptop/README.md",
+					"settings":
+					{
+						"buffer_size": 4329,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/haugi/linuxlaptop/awesome/awesome.md",
+					"settings":
+					{
+						"buffer_size": 2317,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
+					"settings":
+					{
+						"buffer_size": 227,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
+					"settings":
+					{
+						"buffer_size": 30827,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/haugi/.dotfiles/.config/compton.conf",
+					"settings":
+					{
+						"buffer_size": 1344,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"preview",
+						"MarkdownLivePreview: Edit Current File"
+					],
+					[
+						"prev",
+						"MarkdownLivePreview: Edit Current File"
+					],
+					[
+						"mark",
+						"MarkdownLivePreview: Edit Current File"
+					],
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					],
+					[
+						"install packa",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 136.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/haugi/linuxlaptop/manjaro.md",
+				"/home/haugi/linuxlaptop/popos.md",
+				"/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
+				"/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
+				"/home/haugi/.config/dconf/user",
+				"/home/haugi/linuxlaptop/README.md",
+				"/home/haugi/linuxlaptop/awesome/awesome.md",
+				"/home/haugi/.config/awesome/rc.lua",
+				"/home/haugi/.config/awesome/autorun.sh",
+				"/home/haugi/.dotfiles/setup.sh",
+				"/home/haugi/.config/autostart/xfce-pbw.sh",
+				"/home/haugi/popos.pub",
+				"/home/haugi/linuxlaptop/awesome/.zshrc",
+				"/home/haugi/.config/awesome/themes/multicolor/theme.lua",
+				"/home/haugi/# linuxlaptop.md",
+				"/home/haugi/.config/compton.conf",
+				"/home/haugi/.config/awesome/rc.lua.old",
+				"/home/haugi/.config/awesome/rc.lua.manjaro",
+				"/home/haugi/.config/awesome/rc.lua-pretheme",
+				"/home/haugi/.zshrc",
+				"/home/haugi/movescreen.py"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"awful.util.spawn_with",
+					"autorun",
+					"layout"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -336,49 +657,22 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 4503,
+								"buffer_size": 4329,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3712,
-										3712
+										409,
+										409
 									]
 								],
 								"settings":
 								{
-									"markdonw_live_preview_last_run": 1573203323.3,
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 1689.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/haugi/linuxlaptop/manjaro.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 198,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										198,
-										198
-									]
-								],
-								"settings":
-								{
-									"markdonw_live_preview_last_run": 1573203323.31,
+									"markdonw_live_preview_last_run": 1573547692.54,
+									"markdown_live_preview_enabled": true,
+									"markdown_live_preview_id": 33,
 									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 								},
 								"translation.x": 0.0,
@@ -389,57 +683,57 @@
 							"type": "text"
 						},
 						{
-							"buffer": 2,
-							"file": "/home/haugi/.config/awesome/autorun.sh",
+							"buffer": 1,
+							"file": "/home/haugi/linuxlaptop/awesome/awesome.md",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 252,
+								"buffer_size": 2317,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										224,
-										224
+										966,
+										966
 									]
 								],
 								"settings":
 								{
-									"markdonw_live_preview_last_run": 1573136658.28,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+									"markdonw_live_preview_last_run": 1573547825.01,
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 180.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
-							"buffer": 3,
-							"file": "/home/haugi/.dotfiles/setup.sh",
+							"buffer": 2,
+							"file": "/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 921,
+								"buffer_size": 227,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										582,
-										582
+										125,
+										125
 									]
 								],
 								"settings":
 								{
-									"markdonw_live_preview_last_run": 1573203323.31,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"markdonw_live_preview_last_run": 1573548222.91,
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -449,34 +743,63 @@
 							"type": "text"
 						},
 						{
-							"buffer": 4,
-							"file": "/home/haugi/.config/awesome/rc.lua",
+							"buffer": 3,
+							"file": "/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 30728,
+								"buffer_size": 30827,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										21777,
-										21777
+										29855,
+										29855
 									]
 								],
 								"settings":
 								{
-									"markdonw_live_preview_last_run": 1573203323.32,
+									"markdonw_live_preview_last_run": 1573548326.85,
 									"syntax": "Packages/Lua/Lua.sublime-syntax",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 7565.0,
+								"translation.y": 10593.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/haugi/.dotfiles/.config/compton.conf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1344,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1291,
+										1291
+									]
+								],
+								"settings":
+								{
+									"markdonw_live_preview_last_run": 1573547692.58,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 45.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
 							"type": "text"
 						}
 					]
@@ -518,7 +841,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1920,19,2878,1042,7680,1080",
+			"position": "0,0,0,0,0,1920,19,3840,1044,7680,1080",
 			"project": "",
 			"replace":
 			{
@@ -536,12 +859,12 @@
 			},
 			"select_project":
 			{
-				"height": 0.0,
+				"height": 500.0,
 				"last_filter": "",
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 380.0
 			},
 			"select_symbol":
 			{
@@ -555,6 +878,7 @@
 			"selected_group": 0,
 			"settings":
 			{
+				"markdown_live_preview_window": true
 			},
 			"show_minimap": true,
 			"show_open_files": false,
@@ -565,7 +889,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 1,
+			"window_id": 12,
 			"workspace_name": ""
 		}
 	],

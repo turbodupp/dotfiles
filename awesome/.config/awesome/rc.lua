@@ -91,11 +91,11 @@ local chosen_theme = themes[5]
 local modkey       = "Mod4"
 local altkey       = "Mod1"
 local terminal     = "kitty"
-local editor       = os.getenv("EDITOR") or "vim"
-local gui_editor   = "gvim"
+local editor       = os.getenv("EDITOR") or "nano"
+local gui_editor   = "subl"
 local browser      = "chromium"
 local guieditor    = "subl"
-local scrlocker    = "slock"
+local scrlocker    = "i3lock-fancy-rapid 8 pixel"
 
 awful.util.terminal = terminal
 awful.util.tagnames = { "1", "2", "3", "4", "5" }
@@ -103,13 +103,13 @@ awful.layout.layouts = {
     awful.layout.suit.floating,
     awful.layout.suit.tile,
     awful.layout.suit.tile.left,
-    awful.layout.suit.tile.bottom,
-    awful.layout.suit.tile.top,
+    --awful.layout.suit.tile.bottom,
+    --awful.layout.suit.tile.top,
     --awful.layout.suit.fair,
     --awful.layout.suit.fair.horizontal,
     --awful.layout.suit.spiral,
     awful.layout.suit.spiral.dwindle,
-    --awful.layout.suit.max,
+    awful.layout.suit.max,
     --awful.layout.suit.max.fullscreen,
     --awful.layout.suit.magnifier,
     --awful.layout.suit.corner.nw,
@@ -120,7 +120,7 @@ awful.layout.layouts = {
     --lain.layout.cascade.tile,
     lain.layout.centerwork,
     --lain.layout.centerwork.horizontal,
-    --lain.layout.termfair,
+    lain.layout.termfair,
     --lain.layout.termfair.center,
 }
 
@@ -532,7 +532,7 @@ globalkeys = my_table.join(
     --]]
     -- Prompt
     awful.key({ modkey }, "r", function () awful.util.spawn("rofi -show run", false) end),
-    awful.key({ modkey }, "l", function () awful.util.spawn("i3lock-fancy-rapid 10 5", false) end),
+    awful.key({ modkey }, "l", function () awful.util.spawn("i3lock-fancy-rapid 8 pixel", false) end),
     awful.key({ modkey }, "F2", function () awful.screen.focused().mypromptbox:run() end,
               {description = "run prompt", group = "launcher"}),
 
@@ -763,3 +763,6 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- possible workaround for tag preservation when switching back to default screen:
 -- https://github.com/lcpz/awesome-copycats/issues/251
 -- }}}
+
+-- autostart
+awful.util.spawn_with_shell("~/.config/awesome/autorun.sh")

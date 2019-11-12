@@ -3,5 +3,6 @@
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"theme": "Default.sublime-theme"
 }
