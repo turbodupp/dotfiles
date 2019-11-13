@@ -7,3 +7,4 @@ alias ic='ibmcloud'
 alias wttr='curl wttr.in/Hamar'
 alias rchat='ssh haugi@40.113.116.174 -i popos'
 alias tellus="ssh -D 8081 e217638@sshgw-east.cosng.net"
+alias d="kitty +kitten diff"

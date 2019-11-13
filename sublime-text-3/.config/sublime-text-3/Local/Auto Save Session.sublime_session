@@ -191,37 +191,39 @@
 			"buffers":
 			[
 				{
-					"file": "/home/haugi/linuxlaptop/README.md",
+					"contents": "redirectclipboard:i:1\nredirectprinters:i:1\nredirectcomports:i:1\nredirectsmartcards:i:1\ndevicestoredirect:s:*\ndrivestoredirect:s:*\nredirectdrives:i:1\nsession bpp:i:32\nprompt for credentials on client:i:1\nserver port:i:3389\nallow font smoothing:i:1\npromptcredentialonce:i:1\ngatewayusagemethod:i:1\ngatewayprofileusagemethod:i:1\ngatewaycredentialssource:i:0\nfull address:s:CAC-P-RDSB-1.EVRYCPE.CLOUD\ngatewayhostname:s:backdoor.evrycpe.cloud\nworkspace id:s:cac-p-rdsb-1.evrycpe.cloud\nuse redirection server name:i:1\nloadbalanceinfo:s:tsv://MS Terminal Services Plugin.1.evrycpe-rdp\nuse multimon:i:1\nalternate full address:s:CAC-P-RDSB-1.EVRYCPE.CLOUD\nsignscope:s:Full Address,Alternate Full Address,Use Redirection Server Name,Server Port,GatewayHostname,GatewayUsageMethod,GatewayProfileUsageMethod,GatewayCredentialsSource,PromptCredentialOnce,RedirectDrives,RedirectPrinters,RedirectCOMPorts,RedirectSmartCards,RedirectClipboard,DevicesToRedirect,DrivesToRedirect,LoadBalanceInfo\nsignature:s:AQABAAEAAAB+EgAAMIISegYJKoZIhvcNAQcCoIISazCCEmcCAQExDzANBglghkgB  ZQMEAgEFADALBgkqhkiG9w0BBwGgghC6MIIFKTCCAxGgAwIBAgIJG3gcbV40zh93  MA0GCSqGSIb3DQEBCwUAME4xCzAJBgNVBAYTAk5PMR0wGwYDVQQKDBRCdXlwYXNz  IEFTLTk4MzE2MzMyNzEgMB4GA1UEAwwXQnV5cGFzcyBDbGFzcyAyIFJvb3QgQ0Ew  HhcNMTkwMzI1MTIxNzEwWhcNMzAxMDI2MDkxNjE3WjBLMQswCQYDVQQGEwJOTzEd  MBsGA1UECgwUQnV5cGFzcyBBUy05ODMxNjMzMjcxHTAbBgNVBAMMFEJ1eXBhc3Mg  Q2xhc3MgMiBDQSAyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnKtn  xpZLDQ+R0uzKzDMr83L8Dn+5ToSpD31zqiYMykj7I2geNQ7javKsBOzhgeVr7GP4  yJ5bK/P0dhoKesYvQITihfwztbMP6DyHq1QJLQBqQnF0Lk8GhxSSNAZnlkCgX3aa  zoL32p9BeEfHuUE/8BlPywJY/RyE5/39w3EKmWylhUkeRCMo3dUZr4khJq8JwGp/  feKFs9n5FouM5PGhpFpZO+WQXEeqxpncCxbvWpInBoTnmX3+ofjm+fmY+sdAnyHk  uOBBw3koGbFQygDaJP9VItOGByCX4iSVty/2uzppowIkf7Mpu5v5HJGKObLMP1gG  v5lNqjAe8mz0bn25kwIDAQABo4IBCzCCAQcwDwYDVR0TAQH/BAUwAwEB/zAfBgNV  HSMEGDAWgBTJgHfgYpKC9Uac87r3TMPeuKOtOTAdBgNVHQ4EFgQUkq1libIAD8tR  DcEj7JROj8EEP3cwDgYDVR0PAQH/BAQDAgEGMB0GA1UdJQQWMBQGCCsGAQUFBwMB  BggrBgEFBQcDAjARBgNVHSAECjAIMAYGBFUdIAAwPQYDVR0fBDYwNDAyoDCgLoYs  aHR0cDovL2NybC5idXlwYXNzLm5vL2NybC9CUENsYXNzMlJvb3RDQS5jcmwwMwYI  KwYBBQUHAQEEJzAlMCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5idXlwYXNzLmNv  bTANBgkqhkiG9w0BAQsFAAOCAgEApNka48a+qhJXXS9R24p34CWnirlyxPMhxFfQ  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  \n",
+					"file": "/home/haugi/Downloads/cpub-evrycpe-rdp-evrycpe-rdp-CmsRdsh.rdp",
+					"file_size": 7541,
+					"file_write_time": 132180331879961519,
 					"settings":
 					{
-						"buffer_size": 4329,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/haugi/linuxlaptop/awesome/awesome.md",
-					"settings":
-					{
-						"buffer_size": 2317,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
+						"buffer_size": 7517,
+						"line_ending": "Windows"
 					}
 				},
 				{
 					"file": "/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
 					"settings":
 					{
-						"buffer_size": 30827,
+						"buffer_size": 30829,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/haugi/.dotfiles/.config/compton.conf",
+					"contents": "Ønske om tilgang -> send e-post til Cloud direct service desk(for å få laget ticket), få opprettet AD bruker i evrycpe domenet, legg til brukeren i riktig gruppe.\n\nevrycpe-vc-admin  or   evrycpe-vc-read",
 					"settings":
 					{
-						"buffer_size": 1344,
+						"buffer_size": 202,
+						"line_ending": "Unix",
+						"name": "Ønske om tilgang -> send e-post til Cloud direct s"
+					}
+				},
+				{
+					"file": "/home/haugi/.config/compton.conf",
+					"settings":
+					{
+						"buffer_size": 7664,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -280,13 +282,17 @@
 			},
 			"file_history":
 			[
+				"/home/haugi/compton.conf",
+				"/home/haugi/howdy/PKGBUILD",
+				"/home/haugi/howdy/.SRCINFO",
+				"/home/haugi/.dotfiles/.config/compton.conf",
+				"/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
+				"/home/haugi/linuxlaptop/README.md",
+				"/home/haugi/linuxlaptop/awesome/awesome.md",
 				"/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
 				"/home/haugi/linuxlaptop/manjaro.md",
 				"/home/haugi/linuxlaptop/popos.md",
-				"/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
 				"/home/haugi/.config/dconf/user",
-				"/home/haugi/linuxlaptop/README.md",
-				"/home/haugi/linuxlaptop/awesome/awesome.md",
 				"/home/haugi/.config/awesome/rc.lua",
 				"/home/haugi/.config/awesome/autorun.sh",
 				"/home/haugi/.dotfiles/setup.sh",
@@ -318,6 +324,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"sw",
 					"awful.util.spawn_with",
 					"autorun",
 					"layout"
@@ -338,129 +345,124 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 3,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/haugi/linuxlaptop/README.md",
+							"file": "/home/haugi/Downloads/cpub-evrycpe-rdp-evrycpe-rdp-CmsRdsh.rdp",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 4329,
+								"buffer_size": 7517,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										580,
-										580
+										294,
+										294
 									]
 								],
 								"settings":
 								{
-									"markdonw_live_preview_last_run": 1573547692.54,
-									"markdown_live_preview_enabled": true,
-									"markdown_live_preview_id": 33,
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+									"markdonw_live_preview_last_run": 1573554324.97,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 3,
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/home/haugi/linuxlaptop/awesome/awesome.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2317,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										966,
-										966
-									]
-								],
-								"settings":
-								{
-									"markdonw_live_preview_last_run": 1573547825.01,
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 180.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
 							"file": "/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 30827,
+								"buffer_size": 30829,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										29855,
-										29855
+										3932,
+										3932
 									]
 								],
 								"settings":
 								{
-									"markdonw_live_preview_last_run": 1573548326.85,
+									"markdonw_live_preview_last_run": 1573559074.54,
 									"syntax": "Packages/Lua/Lua.sublime-syntax",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 10593.0,
+								"translation.y": 1034.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 2,
 							"type": "text"
 						},
 						{
-							"buffer": 3,
-							"file": "/home/haugi/.dotfiles/.config/compton.conf",
+							"buffer": 2,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1344,
+								"buffer_size": 202,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1291,
-										1291
+										201,
+										201
 									]
 								],
 								"settings":
 								{
-									"markdonw_live_preview_last_run": 1573547692.58,
+									"auto_name": "Ønske om tilgang -> send e-post til Cloud direct s",
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 45.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/haugi/.config/compton.conf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7664,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1132,
+										1132
+									]
+								],
+								"settings":
+								{
+									"markdonw_live_preview_last_run": 1573633236.08,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 105.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
 							"type": "text"
 						}
 					]
@@ -502,7 +504,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1920,19,3840,1044,7680,1080",
+			"position": "0,0,0,0,0,461,19,1457,1042,7680,1080",
 			"project": "",
 			"replace":
 			{
@@ -551,307 +553,6 @@
 			{
 			},
 			"window_id": 12,
-			"workspace_name": ""
-		},
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "/home/haugi/linuxlaptop/manjaro.md",
-					"settings":
-					{
-						"buffer_size": 441,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "",
-					"settings":
-					{
-						"buffer_size": 0,
-						"line_ending": "Unix",
-						"name": "manjaro.md - Preview",
-						"scratch": true
-					}
-				}
-			],
-			"build_system": "",
-			"build_system_choices":
-			[
-			],
-			"build_varint": "",
-			"command_palette":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-					[
-						"preview",
-						"MarkdownLivePreview: Edit Current File"
-					],
-					[
-						"prev",
-						"MarkdownLivePreview: Edit Current File"
-					],
-					[
-						"mark",
-						"MarkdownLivePreview: Edit Current File"
-					],
-					[
-						"Package Control: install",
-						"Package Control: Install Package"
-					],
-					[
-						"install packa",
-						"Package Control: Install Package"
-					]
-				],
-				"width": 0.0
-			},
-			"console":
-			{
-				"height": 136.0,
-				"history":
-				[
-					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
-				]
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/home/haugi/linuxlaptop/manjaro.md",
-				"/home/haugi/linuxlaptop/popos.md",
-				"/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
-				"/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
-				"/home/haugi/.config/dconf/user",
-				"/home/haugi/linuxlaptop/README.md",
-				"/home/haugi/linuxlaptop/awesome/awesome.md",
-				"/home/haugi/.config/awesome/rc.lua",
-				"/home/haugi/.config/awesome/autorun.sh",
-				"/home/haugi/.dotfiles/setup.sh",
-				"/home/haugi/.config/autostart/xfce-pbw.sh",
-				"/home/haugi/popos.pub",
-				"/home/haugi/linuxlaptop/awesome/.zshrc",
-				"/home/haugi/.config/awesome/themes/multicolor/theme.lua",
-				"/home/haugi/# linuxlaptop.md",
-				"/home/haugi/.config/compton.conf",
-				"/home/haugi/.config/awesome/rc.lua.old",
-				"/home/haugi/.config/awesome/rc.lua.manjaro",
-				"/home/haugi/.config/awesome/rc.lua-pretheme",
-				"/home/haugi/.zshrc",
-				"/home/haugi/movescreen.py"
-			],
-			"find":
-			{
-				"height": 24.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"groups":
-			[
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"file": "/home/haugi/linuxlaptop/manjaro.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 441,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										360,
-										360
-									]
-								],
-								"settings":
-								{
-									"markdonw_live_preview_last_run": 1573548846.03,
-									"markdown_live_preview_enabled": true,
-									"markdown_live_preview_id": 36,
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 1,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 0,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/MarkdownLivePreview/.sublime/MarkdownLivePreviewSyntax.hidden-tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 80.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						}
-					]
-				}
-			],
-			"incremental_find":
-			{
-				"height": 24.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					],
-					[
-						1,
-						0,
-						2,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					0.5,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"output.find_results":
-			{
-				"height": 0.0
-			},
-			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1920,19,2878,1042,7680,1080",
-			"project": "",
-			"replace":
-			{
-				"height": 44.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 500.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 380.0
-			},
-			"select_symbol":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"selected_group": 0,
-			"settings":
-			{
-				"markdown_live_preview_window": true
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 150.0,
-			"status_bar_visible": true,
-			"template_settings":
-			{
-			},
-			"window_id": 13,
 			"workspace_name": ""
 		}
 	],

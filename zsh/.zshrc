@@ -26,6 +26,12 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
+# kitty zsh completion
+# autoload -Uz compinit
+# compinit
+# Completion for kitty
+# kitty + complete setup zsh | source /dev/stdin
+
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
