@@ -333,14 +333,14 @@ globalkeys = my_table.join(
               {description = "focus the previous screen", group = "screen"}),
     awful.key({ modkey,           }, "u", awful.client.urgent.jumpto,
               {description = "jump to urgent client", group = "client"}),
-    awful.key({ modkey,           }, "Tab",
-        function ()
-            awful.client.focus.history.previous()
-            if client.focus then
-                client.focus:raise()
-            end
-        end,
-        {description = "go back", group = "client"}),
+    -- awful.key({ modkey,           }, "Tab",
+    --    function ()
+    --        awful.client.focus.history.previous()
+    --        if client.focus then
+    --            client.focus:raise()
+    --        end
+    --    end,
+    --    {description = "go back", group = "client"}),
 
     -- Show/Hide Wibox
     awful.key({ modkey }, "b", function ()
@@ -532,6 +532,7 @@ globalkeys = my_table.join(
     --]]
     -- Prompt
     awful.key({ modkey }, "r", function () awful.util.spawn("rofi -show run", false) end),
+    awful.key({ modkey }, "Tab", function () awful.util.spawn("rofi -show window", false) end),
     awful.key({ modkey }, "l", function () awful.util.spawn("i3lock-fancy-rapid 8 pixel", false) end),
     awful.key({ modkey }, "F2", function () awful.screen.focused().mypromptbox:run() end,
               {description = "run prompt", group = "launcher"}),
