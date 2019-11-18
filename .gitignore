@@ -1,3 +1,4 @@
 sublime-text-3/.config/sublime-text-3/Cache/*
 *.log
 *.cache
+*.sublime_session
