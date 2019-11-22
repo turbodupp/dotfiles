@@ -1,3 +1,6 @@
+All credit to MArpogaus
+check it here: https://github.com/MArpogaus/awesome-ayu
+
 ![](img/ayu.png)
 
 > [ayu][] is a simple theme with bright colors and comes in three versions — dark, mirage and light for all day long comfortable work.
