@@ -13,15 +13,7 @@ Wallpaper can be found in `images/` folder.
 # Dependencies
 | Dependence | Explanation |
 |:-------:|:-------|
-| scrot	| Used in screenshots script |
-| trans | Used in translation scripts |
-| xclip | Get selection for translation script |
-| jq | Parse json in weather widget |
-| lm_sensors | Temperature monitoring for system_info widget |
-| feh | Set wallpaper (you need to choose image as wallpaper using feh) |
-| notify-send | Notification sending |
-
-Also, you need sign up on openweathermap.org and get API key for weather widget work.
+| needs sorted later|
 
 
 # How to setup
