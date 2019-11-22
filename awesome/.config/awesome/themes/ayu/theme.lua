@@ -58,7 +58,7 @@ theme:set_color_scheme(color_scheme)
 
 -- Define the icon theme for application icons. If not set then the icons
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.
-theme.icon_theme = config.icon_theme or "HighContrast"
+-- theme.icon_theme = config.icon_theme or "HighContrast"
 
 function theme.at_screen_connect(s)
 
