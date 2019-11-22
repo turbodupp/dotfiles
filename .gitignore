@@ -1,6 +1,8 @@
 # Trying to filter sublime #
 ############################
-sublime-text-3/.config/sublime-text-3/Cache/*
+sublime-text-3/.config/sublime-text-3/Cache/
+sublime-text-3/.config/sublime-text-3/Packages/
+sublime-text-3/.config/sublime-text-3/Local/
 *.log
 *.cache
 *.sublime_session
@@ -9,6 +11,7 @@ sublime-text-3/.config/sublime-text-3/Cache/*
 *.tmPreferences.cache
 *.stTheme.cache
 GitHub.sublime-settings
+
 
 # Packages #
 ############
