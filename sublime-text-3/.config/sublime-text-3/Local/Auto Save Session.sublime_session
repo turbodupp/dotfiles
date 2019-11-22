@@ -230,7 +230,7 @@
 					"file": "/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
 					"settings":
 					{
-						"buffer_size": 30967,
+						"buffer_size": 30973,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -240,15 +240,6 @@
 					"settings":
 					{
 						"buffer_size": 65,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
-					"settings":
-					{
-						"buffer_size": 277,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -324,6 +315,7 @@
 			},
 			"file_history":
 			[
+				"/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
 				"/home/haugi/Documents/Procedure for orders, either new set up or access",
 				"/home/haugi/packer/virtualbox/virtualbox.json",
 				"/home/haugi/Downloads/cpub-evrycpe-rdp-evrycpe-rdp-CmsRdsh.rdp",
@@ -338,7 +330,6 @@
 				"/home/haugi/howdy/.SRCINFO",
 				"/home/haugi/.dotfiles/.config/compton.conf",
 				"/home/haugi/linuxlaptop/README.md",
-				"/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
 				"/home/haugi/linuxlaptop/popos.md",
 				"/home/haugi/.config/dconf/user",
 				"/home/haugi/.config/awesome/autorun.sh",
@@ -356,7 +347,7 @@
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 38.0
 			},
 			"find_in_files":
 			{
@@ -370,6 +361,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"kill",
+					"close",
+					"mouse",
 					"alt",
 					"w",
 					"menu",
@@ -398,7 +392,7 @@
 			"groups":
 			[
 				{
-					"selected": 4,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -465,15 +459,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 30967,
+								"buffer_size": 30973,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										22207,
-										22207
+										5315,
+										5315
 									]
 								],
 								"settings":
@@ -483,10 +477,10 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 8354.0,
+								"translation.y": 1984.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 5,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
@@ -519,34 +513,6 @@
 						},
 						{
 							"buffer": 4,
-							"file": "/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 277,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										277,
-										277
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 5,
 							"semi_transient": false,
 							"settings":
 							{
@@ -612,7 +578,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,4800,19,5758,521,7680,1636",
+			"position": "0,0,0,0,0,1920,19,3840,1044,7680,1636",
 			"project": "",
 			"replace":
 			{
