@@ -531,8 +531,8 @@ globalkeys = my_table.join(
         {description = "show rofi", group = "launcher"}),
     --]]
     -- Prompt
-    awful.key({ modkey }, "r", function () awful.util.spawn("rofi -show run", false) end),
-    awful.key({ modkey }, "Tab", function () awful.util.spawn("rofi -show window", false) end),
+    awful.key({ modkey }, "r", function () awful.util.spawn("rofi -show drun -show-icons", false) end),
+    awful.key({ modkey }, "Tab", function () awful.util.spawn("rofi -show window -show-icons", false) end),
     awful.key({ modkey }, "l", function () awful.util.spawn("i3lock-fancy-rapid 8 pixel", false) end),
     awful.key({ modkey }, "F2", function () awful.screen.focused().mypromptbox:run() end,
               {description = "run prompt", group = "launcher"}),

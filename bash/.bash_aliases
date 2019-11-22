@@ -10,4 +10,3 @@ alias tellus="ssh -D 8081 e217638@sshgw-east.cosng.net"
 alias d="kitty +kitten diff"
 unalias gd
 alias gd="git difftool --no-symlinks --dir-diff"
-alias kubectl-del-evicted="kubectl get po -A | grep Evicted | awk "{system ("kubectl -n " $1 " delete po " $2)}""
