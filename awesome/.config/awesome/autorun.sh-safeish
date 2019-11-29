@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+function run {
+  if ! pgrep $1 ;
+    then
+        $@&
+          fi
+          }
+run nm-applet
+run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+run eval "$(ssh-agent -s)"
+exec ssh-add ~/popos
+run /home/haugi/.screenlayout/workstation.sh
+run compton -config /dev/null -b
+run gnome-keyring-daemon
