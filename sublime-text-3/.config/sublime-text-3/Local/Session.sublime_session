@@ -251,7 +251,7 @@
 					"file": "/home/haugi/.dotfiles/awesome/.config/awesome/themes/ayu/theme.lua",
 					"settings":
 					{
-						"buffer_size": 7975,
+						"buffer_size": 7978,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -318,19 +318,31 @@
 			},
 			"file_history":
 			[
+				"/etc/lightdm/lightdm-gtk-greeter.conf",
+				"/etc/lightdm/Xsession",
+				"/etc/lightdm/lightdm.conf",
+				"/etc/lightdm/users.conf",
+				"/etc/apparmor.d/abstractions/lightdm",
+				"/home/haugi/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml",
+				"/home/haugi/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml",
+				"/home/haugi/.config/xfce4/helpers.rc",
+				"/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
+				"/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
+				"/home/haugi/.config/compton.conf",
+				"/home/haugi/.dotfiles/.gitignore",
+				"/home/haugi/.dotfiles/README.md",
+				"/home/haugi/.dotfiles/awesome/.config/awesome/themes/ayu/README.md",
+				"/home/haugi/.dotfiles/setup.sh",
 				"/home/haugi/.dotfiles/awesome/.config/awesome/themes/ayu/ayu_theme.lua",
 				"/home/haugi/.dotfiles/awesome/.config/awesome/themes/multicolor/theme.lua",
 				"/home/haugi/.dotfiles/awesome/.config/awesome/themes/ayu/theme.lua",
 				"/home/haugi/.dotfiles/awesome/.config/awesome/config.lua",
 				"/home/haugi/packer/init.sh",
-				"/home/haugi/.dotfiles/awesome/.config/awesome/autorun.sh",
 				"/home/haugi/Documents/Procedure for orders, either new set up or access",
 				"/home/haugi/packer/virtualbox/virtualbox.json",
 				"/home/haugi/Downloads/cpub-evrycpe-rdp-evrycpe-rdp-CmsRdsh.rdp",
 				"/home/haugi/.config/awesome/rc.lua",
 				"/home/haugi/.config/Franz/recipes/discord/service.css",
-				"/home/haugi/.dotfiles/awesome/.config/awesome/rc.lua",
-				"/home/haugi/.config/compton.conf",
 				"/home/haugi/linuxlaptop/manjaro.md",
 				"/home/haugi/linuxlaptop/awesome/awesome.md",
 				"/home/haugi/compton.conf",
@@ -341,7 +353,6 @@
 				"/home/haugi/linuxlaptop/popos.md",
 				"/home/haugi/.config/dconf/user",
 				"/home/haugi/.config/awesome/autorun.sh",
-				"/home/haugi/.dotfiles/setup.sh",
 				"/home/haugi/.config/autostart/xfce-pbw.sh",
 				"/home/haugi/popos.pub",
 				"/home/haugi/linuxlaptop/awesome/.zshrc",
@@ -369,6 +380,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"menu",
+					"wallpaper",
+					"icon",
 					"confdir",
 					"wall",
 					"wibox",
@@ -424,8 +438,8 @@
 								"selection":
 								[
 									[
-										393,
-										393
+										7837,
+										7837
 									]
 								],
 								"settings":
@@ -435,7 +449,7 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 1453.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -447,15 +461,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 7975,
+								"buffer_size": 7978,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2443,
-										2443
+										4370,
+										4370
 									]
 								],
 								"settings":
@@ -465,7 +479,7 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 900.0,
+								"translation.y": 1273.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -510,7 +524,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1928,28,3832,1036,7680,1080",
+			"position": "0,0,0,0,0,960,20,1918,1042,5760,1080",
 			"project": "",
 			"replace":
 			{

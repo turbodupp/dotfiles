@@ -16,7 +16,7 @@ local wibox         = require("wibox")
 local beautiful     = require("beautiful")
 local naughty       = require("naughty")
 local lain          = require("lain")
---local menubar       = require("menubar")
+local menubar       = require("menubar")
 local freedesktop   = require("freedesktop")
 local hotkeys_popup = require("awful.hotkeys_popup").widget
                       require("awful.hotkeys_popup.keys")
@@ -198,6 +198,13 @@ local myawesomemenu = {
     { "edit config", string.format("%s -e %s %s", terminal, editor, awesome.conffile) },
     { "restart", awesome.restart },
     { "quit", function() awesome.quit() end }
+}
+myexitmenu = {
+    { "log out", function() awesome.quit() end, menubar.utils.lookup_icon("system-log-out") },
+    { "suspend", "systemctl suspend", menubar.utils.lookup_icon("system-suspend") },
+    { "hibernate", "systemctl hibernate", menubar.utils.lookup_icon("system-suspend-hibernate") },
+    { "reboot", "systemctl reboot", menubar.utils.lookup_icon("system-reboot") },
+    { "shutdown", "poweroff", menubar.utils.lookup_icon("system-shutdown") }
 }
 awful.util.mymainmenu = freedesktop.menu.build({
     icon_size = beautiful.menu_height or dpi(16),
@@ -673,10 +680,37 @@ awful.rules.rules = {
                      keys = clientkeys,
                      buttons = clientbuttons,
                      screen = awful.screen.preferred,
+                     callback = awful.client.setslave,
                      placement = awful.placement.no_overlap+awful.placement.no_offscreen,
                      size_hints_honor = false
      }
     },
+
+    -- Floating clients.
+    { rule_any = {
+        instance = {
+          "DTA",  -- Firefox addon DownThemAll.
+          "copyq",  -- Includes session name in class.
+        },
+        class = {
+          "Arandr",
+          "Gpick",
+          "Kruler",
+          "MessageWin",  -- kalarm.
+          "Sxiv",
+          "Wpa_gui",
+          "pinentry",
+          "veromix",
+          "xtightvncviewer"},
+
+        name = {
+          "Event Tester",  -- xev.
+        },
+        role = {
+          "AlarmWindow",  -- Thunderbird's calendar.
+          "pop-up",       -- e.g. Google Chrome's (detached) Developer Tools.
+        }
+      }, properties = { floating = true }},
 
     -- Titlebars
     { rule_any = { type = { "dialog", "normal" } },
