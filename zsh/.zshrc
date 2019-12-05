@@ -27,10 +27,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # CASE_SENSITIVE="true"
 
 # kitty zsh completion
-# autoload -Uz compinit
-# compinit
+ autoload -Uz compinit
+ compinit
 # Completion for kitty
-# kitty + complete setup zsh | source /dev/stdin
+ kitty + complete setup zsh | source /dev/stdin
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
@@ -126,10 +126,14 @@ alias la='ls -la'
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/haugi/google-cloud-sdk/path.zsh.inc' ]; then . '/home/haugi/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/opt/google-cloud-sdk/path.zsh.inc' ]; then . '/opt/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/home/haugi/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/haugi/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/opt/google-cloud-sdk/completion.zsh.inc' ]; then . '/opt/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Ibm cloud autocomplete
+source /opt/ibmcloud/autocomplete/zsh_autocomplete 
+
 source ~/.bash_aliases
 source ~/weyland-yutani.bashrc
 
