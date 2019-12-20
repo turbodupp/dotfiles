@@ -1,6 +1,6 @@
 ## Haugi's Aliases
 alias supdate='sudo pacman -Syy'
-alias supgrade='sudo pacman -Syu'
+alias yupdate='yay -Syu'
 alias please='sudo $(fc -nl -1)'
 alias cls='clear'
 alias ic='ibmcloud'
@@ -10,3 +10,4 @@ alias tellus="ssh -D 8081 e217638@sshgw-east.cosng.net"
 alias d="kitty +kitten diff"
 unalias gd
 alias gd="git difftool --no-symlinks --dir-diff"
+alias getwalls="bash ~/Documents/getwalls.sh"

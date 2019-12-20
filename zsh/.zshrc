@@ -125,12 +125,6 @@ alias la='ls -la'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/opt/google-cloud-sdk/path.zsh.inc' ]; then . '/opt/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/opt/google-cloud-sdk/completion.zsh.inc' ]; then . '/opt/google-cloud-sdk/completion.zsh.inc'; fi
-
 # Ibm cloud autocomplete
 source /opt/ibmcloud/autocomplete/zsh_autocomplete 
 
@@ -170,3 +164,11 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+
+cat $HOME/.config/wpg/sequences &
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/haugi/google-cloud-sdk/path.zsh.inc' ]; then . '/home/haugi/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/haugi/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/haugi/google-cloud-sdk/completion.zsh.inc'; fi
