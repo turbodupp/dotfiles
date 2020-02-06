@@ -1,6 +1,6 @@
 # awesomewm-config
 My dotfiles:
-awesome WM, subl3 ++
+awesome WM, subl3, kitty ++
 
 
 # Screenshots
